@@ -3,10 +3,10 @@ import os
 
 print("- - -ADIVINHE O NÚMERO - - -")
 
-while True:
-    pcNumber = random.randrange(1, 11)
-    print("Já escolhi meu número, adivinhe se for capaz.")
+pcNumber = random.randrange(1, 11)
+print("Já escolhi meu número, adivinhe se for capaz.")
 
+while True:
     myNumber = int(input("Digite um número: "))
 
     if myNumber != pcNumber:
